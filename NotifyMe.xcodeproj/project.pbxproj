@@ -21,6 +21,7 @@
 		FEB2567224BF875C00FFEA05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB2567024BF875C00FFEA05 /* LaunchScreen.storyboard */; };
 		FEB2567D24BF875D00FFEA05 /* NotifyMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2567C24BF875D00FFEA05 /* NotifyMeTests.swift */; };
 		FEB2568824BF875D00FFEA05 /* NotifyMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2568724BF875D00FFEA05 /* NotifyMeUITests.swift */; };
+		FEB2569624C0DD7000FFEA05 /* JournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2569524C0DD7000FFEA05 /* JournalTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		FEB2568324BF875D00FFEA05 /* NotifyMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotifyMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB2568724BF875D00FFEA05 /* NotifyMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyMeUITests.swift; sourceTree = "<group>"; };
 		FEB2568924BF875D00FFEA05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB2569524C0DD7000FFEA05 /* JournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				FEB2566424BF875800FFEA05 /* FirstViewController.swift */,
 				FEB2566624BF875800FFEA05 /* SecondViewController.swift */,
 				FEB2566824BF875800FFEA05 /* Main.storyboard */,
+				FEB2569524C0DD7000FFEA05 /* JournalTableViewController.swift */,
 				18F1099224C0CC4000FA6558 /* ProductivityTableViewController.swift */,
 				18F1099424C0CC4B00FA6558 /* MedicalTableViewController.swift */,
 				18F1099624C0CC5700FA6558 /* StudentTableViewController.swift */,
@@ -279,6 +282,7 @@
 			files = (
 				FEB2566D24BF875800FFEA05 /* NotifyMe.xcdatamodeld in Sources */,
 				FEB2566724BF875800FFEA05 /* SecondViewController.swift in Sources */,
+				FEB2569624C0DD7000FFEA05 /* JournalTableViewController.swift in Sources */,
 				18F1099524C0CC4B00FA6558 /* MedicalTableViewController.swift in Sources */,
 				FEB2566524BF875800FFEA05 /* FirstViewController.swift in Sources */,
 				FEB2566124BF875800FFEA05 /* AppDelegate.swift in Sources */,
