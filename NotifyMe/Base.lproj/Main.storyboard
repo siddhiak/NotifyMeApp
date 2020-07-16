@@ -136,7 +136,7 @@
         <!--Reminders-->
         <scene sceneID="QPR-IY-U2v">
             <objects>
-                <viewController id="RXj-vb-Lym" sceneMemberID="viewController">
+                <viewController id="RXj-vb-Lym" customClass="ThirdTableViewController" customModule="NotifyMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dkc-Vy-Qy2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
