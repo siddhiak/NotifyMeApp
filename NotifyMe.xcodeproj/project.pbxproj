@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1840621E24C00D3600E6F417 /* ThirdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1840621D24C00D3600E6F417 /* ThirdTableViewController.swift */; };
+		18F1099324C0CC4000FA6558 /* ProductivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1099224C0CC4000FA6558 /* ProductivityTableViewController.swift */; };
+		18F1099524C0CC4B00FA6558 /* MedicalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1099424C0CC4B00FA6558 /* MedicalTableViewController.swift */; };
+		18F1099724C0CC5700FA6558 /* StudentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1099624C0CC5700FA6558 /* StudentTableViewController.swift */; };
 		FEB2566124BF875800FFEA05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2566024BF875800FFEA05 /* AppDelegate.swift */; };
 		FEB2566324BF875800FFEA05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2566224BF875800FFEA05 /* SceneDelegate.swift */; };
 		FEB2566524BF875800FFEA05 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2566424BF875800FFEA05 /* FirstViewController.swift */; };
@@ -39,6 +42,9 @@
 
 /* Begin PBXFileReference section */
 		1840621D24C00D3600E6F417 /* ThirdTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTableViewController.swift; sourceTree = "<group>"; };
+		18F1099224C0CC4000FA6558 /* ProductivityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityTableViewController.swift; sourceTree = "<group>"; };
+		18F1099424C0CC4B00FA6558 /* MedicalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalTableViewController.swift; sourceTree = "<group>"; };
+		18F1099624C0CC5700FA6558 /* StudentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewController.swift; sourceTree = "<group>"; };
 		FEB2565D24BF875800FFEA05 /* NotifyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotifyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB2566024BF875800FFEA05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEB2566224BF875800FFEA05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +116,9 @@
 				FEB2566424BF875800FFEA05 /* FirstViewController.swift */,
 				FEB2566624BF875800FFEA05 /* SecondViewController.swift */,
 				FEB2566824BF875800FFEA05 /* Main.storyboard */,
+				18F1099224C0CC4000FA6558 /* ProductivityTableViewController.swift */,
+				18F1099424C0CC4B00FA6558 /* MedicalTableViewController.swift */,
+				18F1099624C0CC5700FA6558 /* StudentTableViewController.swift */,
 				1840621D24C00D3600E6F417 /* ThirdTableViewController.swift */,
 				FEB2566E24BF875C00FFEA05 /* Assets.xcassets */,
 				FEB2567024BF875C00FFEA05 /* LaunchScreen.storyboard */,
@@ -270,10 +279,13 @@
 			files = (
 				FEB2566D24BF875800FFEA05 /* NotifyMe.xcdatamodeld in Sources */,
 				FEB2566724BF875800FFEA05 /* SecondViewController.swift in Sources */,
+				18F1099524C0CC4B00FA6558 /* MedicalTableViewController.swift in Sources */,
 				FEB2566524BF875800FFEA05 /* FirstViewController.swift in Sources */,
 				FEB2566124BF875800FFEA05 /* AppDelegate.swift in Sources */,
 				FEB2566324BF875800FFEA05 /* SceneDelegate.swift in Sources */,
 				1840621E24C00D3600E6F417 /* ThirdTableViewController.swift in Sources */,
+				18F1099324C0CC4000FA6558 /* ProductivityTableViewController.swift in Sources */,
+				18F1099724C0CC5700FA6558 /* StudentTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
