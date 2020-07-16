@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1840621E24C00D3600E6F417 /* ThirdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1840621D24C00D3600E6F417 /* ThirdTableViewController.swift */; };
 		FEB2566124BF875800FFEA05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2566024BF875800FFEA05 /* AppDelegate.swift */; };
 		FEB2566324BF875800FFEA05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2566224BF875800FFEA05 /* SceneDelegate.swift */; };
 		FEB2566524BF875800FFEA05 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2566424BF875800FFEA05 /* FirstViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1840621D24C00D3600E6F417 /* ThirdTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTableViewController.swift; sourceTree = "<group>"; };
 		FEB2565D24BF875800FFEA05 /* NotifyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotifyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB2566024BF875800FFEA05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEB2566224BF875800FFEA05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				FEB2566424BF875800FFEA05 /* FirstViewController.swift */,
 				FEB2566624BF875800FFEA05 /* SecondViewController.swift */,
 				FEB2566824BF875800FFEA05 /* Main.storyboard */,
+				1840621D24C00D3600E6F417 /* ThirdTableViewController.swift */,
 				FEB2566E24BF875C00FFEA05 /* Assets.xcassets */,
 				FEB2567024BF875C00FFEA05 /* LaunchScreen.storyboard */,
 				FEB2567324BF875C00FFEA05 /* Info.plist */,
@@ -270,6 +273,7 @@
 				FEB2566524BF875800FFEA05 /* FirstViewController.swift in Sources */,
 				FEB2566124BF875800FFEA05 /* AppDelegate.swift in Sources */,
 				FEB2566324BF875800FFEA05 /* SceneDelegate.swift in Sources */,
+				1840621E24C00D3600E6F417 /* ThirdTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
