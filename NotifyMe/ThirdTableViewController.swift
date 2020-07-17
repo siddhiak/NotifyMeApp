@@ -9,9 +9,11 @@
 import UIKit
 
 class ThirdTableViewController: UITableViewController {
-
+    var toDos : [ToDo] = []
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        toDos = createToDos()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -19,22 +21,37 @@ class ThirdTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
+    func createToDos() -> [ToDo] {
+        
+        let swift = ToDo()
+        swift.name = "Learn Swift"
+        swift.important = true
+        
+        let dog = ToDo()
+        dog.name = "Walk the Dog"
+        return [swift, dog]
+    }
+    
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        
+        return toDos.count
     }
+    
+   
+    
 
     
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
@@ -42,7 +59,7 @@ class ThirdTableViewController: UITableViewController {
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.

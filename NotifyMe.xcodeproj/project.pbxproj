@@ -27,6 +27,7 @@
 		FEB2567D24BF875D00FFEA05 /* NotifyMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2567C24BF875D00FFEA05 /* NotifyMeTests.swift */; };
 		FEB2568824BF875D00FFEA05 /* NotifyMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2568724BF875D00FFEA05 /* NotifyMeUITests.swift */; };
 		FEB2569624C0DD7000FFEA05 /* JournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2569524C0DD7000FFEA05 /* JournalTableViewController.swift */; };
+		FEB2569824C145F700FFEA05 /* ThirdTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2569724C145F700FFEA05 /* ThirdTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		FEB2568724BF875D00FFEA05 /* NotifyMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyMeUITests.swift; sourceTree = "<group>"; };
 		FEB2568924BF875D00FFEA05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEB2569524C0DD7000FFEA05 /* JournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = "<group>"; };
+		FEB2569724C145F700FFEA05 /* ThirdTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				18F1099424C0CC4B00FA6558 /* MedicalTableViewController.swift */,
 				18F1099624C0CC5700FA6558 /* StudentTableViewController.swift */,
 				1840621D24C00D3600E6F417 /* ThirdTableViewController.swift */,
+				FEB2569724C145F700FFEA05 /* ThirdTable.swift */,
 				FEB2566E24BF875C00FFEA05 /* Assets.xcassets */,
 				FEB2567024BF875C00FFEA05 /* LaunchScreen.storyboard */,
 				FEB2567324BF875C00FFEA05 /* Info.plist */,
@@ -309,6 +312,7 @@
 				18F109A124C132D700FA6558 /* NewHealthInfoViewController.swift in Sources */,
 				18F1099F24C1325000FA6558 /* NewStudentInfoViewController.swift in Sources */,
 				18F1099B24C0F8EC00FA6558 /* NewEntryViewController.swift in Sources */,
+				FEB2569824C145F700FFEA05 /* ThirdTable.swift in Sources */,
 				18F1099724C0CC5700FA6558 /* StudentTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
