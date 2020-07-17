@@ -7,20 +7,20 @@
 //
 
 import UIKit
+import UserNotifications
 
 class ThirdTableViewController: UITableViewController {
+    
+    
+    
     var toDos : [ToDo] = []
     override func viewDidLoad() {
         super.viewDidLoad()
         
         toDos = createToDos()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
+    
     func createToDos() -> [ToDo] {
         
         let swift = ToDo()
@@ -46,10 +46,6 @@ class ThirdTableViewController: UITableViewController {
         
         return toDos.count
     }
-    
-   
-    
-
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
