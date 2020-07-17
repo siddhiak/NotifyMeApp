@@ -56,7 +56,8 @@ class ThirdTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
         // Configure the cell...
-
+        let toDo = toDos[indexPath.row]
+        cell.textLabel?.text = toDo.name
         return cell
     }
     
