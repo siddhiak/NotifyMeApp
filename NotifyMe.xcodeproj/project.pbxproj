@@ -13,6 +13,9 @@
 		18F1099724C0CC5700FA6558 /* StudentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1099624C0CC5700FA6558 /* StudentTableViewController.swift */; };
 		18F1099924C0F6EA00FA6558 /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1099824C0F6EA00FA6558 /* NewEventViewController.swift */; };
 		18F1099B24C0F8EC00FA6558 /* NewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1099A24C0F8EC00FA6558 /* NewEntryViewController.swift */; };
+		18F1099D24C131DD00FA6558 /* NewReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1099C24C131DD00FA6558 /* NewReminderViewController.swift */; };
+		18F1099F24C1325000FA6558 /* NewStudentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1099E24C1325000FA6558 /* NewStudentInfoViewController.swift */; };
+		18F109A124C132D700FA6558 /* NewHealthInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F109A024C132D700FA6558 /* NewHealthInfoViewController.swift */; };
 		FEB2566124BF875800FFEA05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2566024BF875800FFEA05 /* AppDelegate.swift */; };
 		FEB2566324BF875800FFEA05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2566224BF875800FFEA05 /* SceneDelegate.swift */; };
 		FEB2566524BF875800FFEA05 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2566424BF875800FFEA05 /* FirstViewController.swift */; };
@@ -50,6 +53,9 @@
 		18F1099624C0CC5700FA6558 /* StudentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewController.swift; sourceTree = "<group>"; };
 		18F1099824C0F6EA00FA6558 /* NewEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
 		18F1099A24C0F8EC00FA6558 /* NewEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryViewController.swift; sourceTree = "<group>"; };
+		18F1099C24C131DD00FA6558 /* NewReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReminderViewController.swift; sourceTree = "<group>"; };
+		18F1099E24C1325000FA6558 /* NewStudentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStudentInfoViewController.swift; sourceTree = "<group>"; };
+		18F109A024C132D700FA6558 /* NewHealthInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHealthInfoViewController.swift; sourceTree = "<group>"; };
 		FEB2565D24BF875800FFEA05 /* NotifyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotifyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB2566024BF875800FFEA05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEB2566224BF875800FFEA05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +128,9 @@
 				FEB2566424BF875800FFEA05 /* FirstViewController.swift */,
 				FEB2566624BF875800FFEA05 /* SecondViewController.swift */,
 				FEB2566824BF875800FFEA05 /* Main.storyboard */,
+				18F109A024C132D700FA6558 /* NewHealthInfoViewController.swift */,
+				18F1099E24C1325000FA6558 /* NewStudentInfoViewController.swift */,
+				18F1099C24C131DD00FA6558 /* NewReminderViewController.swift */,
 				18F1099A24C0F8EC00FA6558 /* NewEntryViewController.swift */,
 				18F1099824C0F6EA00FA6558 /* NewEventViewController.swift */,
 				FEB2569524C0DD7000FFEA05 /* JournalTableViewController.swift */,
@@ -286,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F1099D24C131DD00FA6558 /* NewReminderViewController.swift in Sources */,
 				FEB2566D24BF875800FFEA05 /* NotifyMe.xcdatamodeld in Sources */,
 				FEB2566724BF875800FFEA05 /* SecondViewController.swift in Sources */,
 				18F1099924C0F6EA00FA6558 /* NewEventViewController.swift in Sources */,
@@ -296,6 +306,8 @@
 				FEB2566324BF875800FFEA05 /* SceneDelegate.swift in Sources */,
 				1840621E24C00D3600E6F417 /* ThirdTableViewController.swift in Sources */,
 				18F1099324C0CC4000FA6558 /* ProductivityTableViewController.swift in Sources */,
+				18F109A124C132D700FA6558 /* NewHealthInfoViewController.swift in Sources */,
+				18F1099F24C1325000FA6558 /* NewStudentInfoViewController.swift in Sources */,
 				18F1099B24C0F8EC00FA6558 /* NewEntryViewController.swift in Sources */,
 				18F1099724C0CC5700FA6558 /* StudentTableViewController.swift in Sources */,
 			);

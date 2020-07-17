@@ -1,5 +1,5 @@
 //
-//  NewEntryViewController.swift
+//  NewHealthInfoViewController.swift
 //  NotifyMe
 //
 //  Created by Apple on 7/16/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NewEntryViewController: UIViewController {
+class NewHealthInfoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,11 +16,10 @@ class NewEntryViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    
+
     @IBAction func DoneButton(_ sender: Any) {
          self.dismiss(animated: true, completion: nil)
     }
-    
     /*
     // MARK: - Navigation
 

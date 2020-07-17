@@ -32,26 +32,6 @@ class ThirdTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return 0
     }
-    
-    func createToDos()
-    {
-        var title : String
-        var item : boolean
-         init(title : String)
-        {
-            self.title = title;
-            self.item = false;
-        }
-        
-    }
-    
-    return
-    [
-        createToDos(title: "Take medicine"),
-        createToDos(title: "Finish homework"),
-        createToDos(title: "Water plants"),
-        createToDos(title: "Clean room")
-    ]
 
     
     /*
