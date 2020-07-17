@@ -189,6 +189,9 @@
                                 <rect key="contentStretch" x="0.69999999999999996" y="0.0" width="1" height="1"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textField:" destination="9WM-Jt-zWV" eventType="editingDidEnd" id="E6v-iM-A5Q"/>
+                                </connections>
                             </textField>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="GJI-8l-oxu">
                                 <rect key="frame" x="-16" y="329" width="375" height="162"/>

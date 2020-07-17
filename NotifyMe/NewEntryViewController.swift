@@ -21,6 +21,9 @@ class NewEntryViewController: UIViewController {
          self.dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func textField(_ sender: Any) {
+    
+    }
     /*
     // MARK: - Navigation
 
