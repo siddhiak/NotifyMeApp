@@ -22,14 +22,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="Choose Planner Version" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="Choose Planner Version" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
                                 <rect key="frame" x="4" y="345" width="371" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.78866475820000004" green="0.78398102520000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izy-6P-k1b">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izy-6P-k1b">
                                 <rect key="frame" x="283" y="605" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Student">
                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -37,8 +39,9 @@
                                     <segue destination="P61-mr-Uz1" kind="show" id="8DG-MG-dwB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m99-jm-EaZ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m99-jm-EaZ">
                                 <rect key="frame" x="22" y="605" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Productivity">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -46,8 +49,9 @@
                                     <segue destination="hxQ-Ei-N9f" kind="show" id="h7I-qj-xea"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUQ-eZ-gLx">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUQ-eZ-gLx">
                                 <rect key="frame" x="161" y="605" width="75" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Healthcare">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -55,29 +59,12 @@
                                     <segue destination="Szg-gI-i2L" kind="show" id="31v-xI-0zZ"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="Screen Shot 2020-07-17 at 9.41.03 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Fia-bf-Tcm">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Screen Shot 2020-07-17 at 9.41.03 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Fia-bf-Tcm">
                                 <rect key="frame" x="106" y="88" width="167" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.78818112610000002" green="0.78506678340000002" blue="0.9943060279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="dUQ-eZ-gLx" secondAttribute="bottom" constant="94" id="2pE-CN-btL"/>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstItem="KQZ-1w-vlD" firstAttribute="top" secondItem="Fia-bf-Tcm" secondAttribute="bottom" constant="16" id="6aK-jU-FsG"/>
-                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="izy-6P-k1b" secondAttribute="trailing" constant="37" id="9GE-gM-n4h"/>
-                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="m99-jm-EaZ" secondAttribute="bottom" constant="94" id="EJY-GH-tws"/>
-                            <constraint firstItem="m99-jm-EaZ" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="197" id="JvW-A2-BQf"/>
-                            <constraint firstItem="izy-6P-k1b" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="197" id="N5q-DB-kGA"/>
-                            <constraint firstItem="Fia-bf-Tcm" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="65" id="Puo-Es-bAi"/>
-                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="Fia-bf-Tcm" secondAttribute="trailing" constant="104" id="RR7-gQ-i3S"/>
-                            <constraint firstItem="dUQ-eZ-gLx" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="197" id="U0t-pG-ymd"/>
-                            <constraint firstItem="Fia-bf-Tcm" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="104" id="VEJ-xU-VfC"/>
-                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="izy-6P-k1b" secondAttribute="bottom" constant="94" id="dGg-Tj-78M"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
-                            <constraint firstItem="m99-jm-EaZ" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="22" id="mkK-ao-luv"/>
-                            <constraint firstItem="dUQ-eZ-gLx" firstAttribute="leading" secondItem="m99-jm-EaZ" secondAttribute="trailing" constant="56" id="yMc-ju-Op1"/>
-                            <constraint firstItem="izy-6P-k1b" firstAttribute="leading" secondItem="dUQ-eZ-gLx" secondAttribute="trailing" constant="47" id="z0L-TS-ScQ"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
                     <navigationItem key="navigationItem" title="Planner" id="L79-6i-IWX"/>
