@@ -15,17 +15,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEM-RV-ov1">
-                                <rect key="frame" x="150" y="605" width="75" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEM-RV-ov1">
+                                <rect key="frame" x="148" y="627" width="75" height="0.0"/>
                                 <state key="normal" title="Healthcare"/>
                                 <connections>
                                     <segue destination="Szg-gI-i2L" kind="show" id="yI7-61-hzB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wp7-Fe-csM">
-                                <rect key="frame" x="30" y="605" width="83" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wp7-Fe-csM">
+                                <rect key="frame" x="30" y="627" width="83" height="0.0"/>
                                 <state key="normal" title="Productivity"/>
                                 <connections>
                                     <segue destination="hxQ-Ei-N9f" kind="show" id="LCE-de-0dH"/>
@@ -39,14 +37,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="Choose Planner Version" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="8" y="333" width="366.5" height="43"/>
+                                <rect key="frame" x="8" y="333" width="367" height="43"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izy-6P-k1b">
-                                <rect key="frame" x="283" y="599" width="55" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izy-6P-k1b">
+                                <rect key="frame" x="290" y="627" width="55" height="0.0"/>
                                 <state key="normal" title="Student"/>
                                 <connections>
                                     <segue destination="P61-mr-Uz1" kind="show" id="8DG-MG-dwB"/>
@@ -55,8 +52,16 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Wp7-Fe-csM" firstAttribute="centerY" secondItem="tEM-RV-ov1" secondAttribute="centerY" id="0fd-5l-cuD"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="izy-6P-k1b" secondAttribute="bottom" constant="102" id="0gg-sA-0eJ"/>
                             <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
+                            <constraint firstItem="Wp7-Fe-csM" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="221" id="IxR-Wv-T9K"/>
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="izy-6P-k1b" secondAttribute="trailing" constant="30" id="gg3-rX-DIA"/>
+                            <constraint firstItem="Wp7-Fe-csM" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="30" id="iVb-Zy-LmM"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="Wp7-Fe-csM" secondAttribute="bottom" constant="102" id="tXg-sP-ZRd"/>
+                            <constraint firstItem="izy-6P-k1b" firstAttribute="centerY" secondItem="tEM-RV-ov1" secondAttribute="centerY" id="upD-9R-o8H"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="tEM-RV-ov1" secondAttribute="bottom" constant="102" id="zwm-Z0-4jQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
@@ -365,7 +370,40 @@
                     <view key="view" contentMode="scaleToFill" id="yBr-c4-MiN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Class Name ..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kbY-Tc-b8O">
+                                <rect key="frame" x="10" y="66" width="355" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="UsB-3m-1YK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Notes..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qXJ-MA-K9b">
+                                <rect key="frame" x="10" y="138" width="355" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="YH4-19-7Mq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="kp4-6A-svN">
+                                <rect key="frame" x="0.0" y="190" width="375" height="534"/>
+                            </datePicker>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="3MC-gt-p1o" firstAttribute="trailing" secondItem="qXJ-MA-K9b" secondAttribute="trailing" constant="10" id="DN8-sc-snV"/>
+                            <constraint firstItem="3MC-gt-p1o" firstAttribute="trailing" secondItem="kbY-Tc-b8O" secondAttribute="trailing" constant="10" id="H9J-q0-bve"/>
+                            <constraint firstItem="kp4-6A-svN" firstAttribute="top" secondItem="qXJ-MA-K9b" secondAttribute="bottom" id="Kc8-yd-cZB"/>
+                            <constraint firstItem="3MC-gt-p1o" firstAttribute="bottom" secondItem="kp4-6A-svN" secondAttribute="bottom" id="NHE-ye-t7N"/>
+                            <constraint firstItem="qXJ-MA-K9b" firstAttribute="leading" secondItem="3MC-gt-p1o" secondAttribute="leading" constant="10" id="NNd-Mh-gUL"/>
+                            <constraint firstItem="kbY-Tc-b8O" firstAttribute="top" secondItem="3MC-gt-p1o" secondAttribute="top" constant="10" id="VBo-MW-zeQ"/>
+                            <constraint firstItem="kbY-Tc-b8O" firstAttribute="leading" secondItem="3MC-gt-p1o" secondAttribute="leading" constant="10" id="ZK2-qn-a39"/>
+                            <constraint firstItem="kp4-6A-svN" firstAttribute="leading" secondItem="yBr-c4-MiN" secondAttribute="leading" id="aYM-nK-D8t"/>
+                            <constraint firstItem="qXJ-MA-K9b" firstAttribute="top" secondItem="kbY-Tc-b8O" secondAttribute="bottom" constant="20" id="ptb-Fo-Waw"/>
+                            <constraint firstItem="3MC-gt-p1o" firstAttribute="trailing" secondItem="kp4-6A-svN" secondAttribute="trailing" id="rsv-q7-wVB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="3MC-gt-p1o"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add Info" id="7Cg-BL-Iw2">
